@@ -1,0 +1,52 @@
+.buttons {
+    position: absolute;
+    width: 70%;
+    height: 6vh;
+    display: flex;
+    left: 50%;
+    transform: translate(-50%, 400px);
+}
+button {
+    width: 33%;
+    height: 100%;
+    background: white;
+    border: none;
+    border-left: 1px solid black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover {
+    background: rgb(205, 205, 205);
+}
+#tab1 {
+    position: absolute;
+    width: 70%;
+    height: 20vh;
+    background: white;
+    left: 50%;
+    transform: translate(-50%, 500px);
+    transition: 0.5s;
+    font-size: 30px;
+}
+#tab2 {
+    position: absolute;
+    width: 70%;
+    height: 20vh;
+    background: white;
+    left: 50%;
+    transform: translate(-50%, 500px);
+    opacity: 0%;
+    transition: 0.5s;
+    font-size: 30px;
+}
+#tab3 {
+    position: absolute;
+    width: 70%;
+    height: 20vh;
+    background: white;
+    left: 50%;
+    transform: translate(-50%, 500px);
+    opacity: 0%;
+    transition: 0.5s;
+    font-size: 30px;
+}
